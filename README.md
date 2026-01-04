@@ -1,16 +1,34 @@
-# React + Vite
+# Flash Cards App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Flash Card application built with React and Vite to master React concepts.
 
-Currently, two official plugins are available:
+> [!IMPORTANT]
+> **Live Demo**: [https://flash-cards-react-agentic-demo.netlify.app](https://flash-cards-react-agentic-demo.netlify.app)
+> _Note: The deployed version uses a specific Netlify site name._
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **Interactive Flip Cards**: 3D flip animation functionality.
+- **Progress Tracking**: Visual progress bar showing completion status.
+- **Responsive Design**: Premium dark mode UI that works on all devices.
+- **Navigation Controls**: Easy Next/Previous navigation.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- **Framework**: React 19 + Vite
+- **Styling**: Vanilla CSS (with modern CSS variables and gradients)
+- **Icons**: Lucide React
+- **Deployment**: Netlify
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
